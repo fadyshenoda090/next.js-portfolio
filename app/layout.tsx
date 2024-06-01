@@ -1,11 +1,8 @@
 import React from "react";
 import type { Metadata } from "next";
-import { Caveat } from "next/font/google";
+import { poppins, caveat, titilliumWeb } from "../utils/cutomFonts";
 import "./globals.css";
 import {ThemeProvider} from "@/app/provider";
-
-
-const caveat = Caveat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Fady Web Dev",
@@ -19,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={caveat.className}><ThemeProvider
+      <body className={titilliumWeb.className}><ThemeProvider
           attribute="class"
           defaultTheme="dark"
           enableSystem

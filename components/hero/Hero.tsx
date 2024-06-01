@@ -1,7 +1,7 @@
 import React from 'react';
 import {Spotlight} from "@/components/ui/Spotlight";
 import {TextGenerateEffect} from "@/components/text-generate-effect";
-import TailwindcssButtons from "@/components/ui/Tailwindcss-buttons";
+import MagicButton from "@/components/ui/MagicButton";
 import {FaLocationArrow} from "react-icons/fa";
 
 const Hero = () => {
@@ -38,7 +38,12 @@ const Hero = () => {
                         words={`Hello I am Fady A Front-End Developer using React and Next.js`}
                     />
                     <a href={`#about`}>
-                        <TailwindcssButtons otherClasses={`flex items-center gap-2`} word={`Show My Work`} icon={<FaLocationArrow/>} position={`right`}/>
+                        <MagicButton
+                            title="Show my work"
+                            icon={<FaLocationArrow />}
+                            position="right"
+                            otherClasses={`flex items-center gap-2 !text-lg !md:text-xl`}
+                        />
                     </a>
                 </div>
             </div>
