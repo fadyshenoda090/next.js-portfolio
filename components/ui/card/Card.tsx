@@ -20,7 +20,7 @@ const Card = () => {
     return (
         <>
             <h1 className={`heading my-5`}>
-                A small selection of {' '}
+                A small collection of {' '}
                 <span className={`text-purple`}>
                     Recent projects
                 </span>
