@@ -2,7 +2,7 @@ import React from 'react';
 import {Spotlight} from "@/components/ui/Spotlight";
 import {TextGenerateEffect} from "@/components/text-generate-effect";
 import MagicButton from "@/components/ui/MagicButton";
-import {FaLocationArrow} from "react-icons/fa";
+import {FaDownload} from "react-icons/fa";
 
 const Hero = () => {
     return (
@@ -22,9 +22,6 @@ const Hero = () => {
 
             <div className="flex justify-center relative my-20 z-10">
                 <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-                    <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-                        Dynamic Web Magic with Next.js
-                    </p>
                     <TextGenerateEffect
                         class2={`mt-4`}
                         staggerValue={0.2}
@@ -34,13 +31,13 @@ const Hero = () => {
                     <TextGenerateEffect
                         class2={`my-4`}
                         staggerValue={0.3}
-                        className={`text-center text-lg md:text-xl`}
-                        words={`Hello I am Fady A Front-End Developer using React and Next.js`}
+                        className={`text-center text-xl md:text-2xl`}
+                        words={`Hello I am Fady a Front-End Developer using React.js and Next.js`}
                     />
-                    <a href={`#about`}>
+                    <a href={`/fadyshenoda.pdf`} download={true}>
                         <MagicButton
-                            title="Show my work"
-                            icon={<FaLocationArrow />}
+                            title="Download my CV"
+                            icon={<FaDownload />}
                             position="right"
                             otherClasses={`flex items-center gap-2 !text-lg !md:text-xl`}
                         />

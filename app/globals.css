@@ -18,11 +18,34 @@
 /*    !*position: absolute;*!*/
 /*    width: 100%;*/
 /*    height: 30rem;*/
-/*    background: conic-gradient(#6C00A2, #001152, #1271FF);*/
+/*    background: radial-gradient(#3B0059, #000319);*/
 /*    background-size: 800% 800%;*/
-/*    animation: gradient 10s ease-in-out infinite;*/
+/*    animation: gradient 15s ease-in-out infinite;*/
 /*    !*z-index: -1; !* Ensures it stays in the background *!*!*/
 /*}*/
+
+/*.embla {*/
+/*    overflow: hidden;*/
+/*    width: 100%;*/
+/*}*/
+
+/*.embla__container {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*}*/
+
+/*.embla__slide {*/
+/*    margin-right: 1rem;*/
+/*    margin-left: 1rem;*/
+/*    border-radius: 1rem;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    !*min-width: calc(100%/3);*!*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+
 
 *{
     user-select:none;

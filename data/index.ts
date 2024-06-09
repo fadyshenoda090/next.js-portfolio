@@ -20,19 +20,9 @@ export const gridItems = [
         id: 2,
         title: "I'm very flexible with time zone communications",
         description: "",
-        className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+        className: "lg:col-span-2 md:col-span-3 md:row-span-3",
         imgClassName: "",
         titleClassName: "justify-start",
-        img: "",
-        spareImg: "",
-    },
-    {
-        id: 3,
-        title: "My tech stack",
-        description: "I constantly try to improve",
-        className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-        imgClassName: "",
-        titleClassName: "justify-center",
         img: "",
         spareImg: "",
     },
@@ -204,14 +194,74 @@ export const workExperience = [
 export const socialMedia = [
     {
         id: 1,
-        img: "/git.svg",
+        img: "/github.svg",
+        alt: "github",
     },
     {
         id: 2,
         img: "/twit.svg",
+        alt: "twitter",
     },
     {
         id: 3,
         img: "/link.svg",
+        alt: "linkedin",
     },
 ];
+
+
+
+export const skills = [
+    {
+        title: "HTML5",
+        img: "/html.svg",
+    },
+    {
+        title: "CSS3",
+        img: "/css3.svg",
+    },
+    {
+        title: "JavaScript",
+        img: "/js.svg",
+    },
+    {
+        title: "TypeScript",
+        img: "/ts.svg",
+    },
+    {
+        title: 'BootStrap',
+        img: '/bootStrap.svg'
+    },
+    {
+        title: "TailwindCSS",
+        img: "/tail.svg",
+    },
+    {
+        title: "React.js",
+        img: "/re.svg",
+    },
+    {
+        title: "Next.js",
+        img: "/next.svg",
+    },
+    {
+        title:'Redux Toolkit',
+        img:'/redux.svg'
+    },
+    {
+        title: "Framer Motion",
+        img: "/fm.svg",
+    },
+    {
+        title: "Git & GitHub",
+        img: "/github.svg",
+    },
+    {
+        title: "Ubuntu OS",
+        img: "/ubuntu.svg",
+    },
+    {
+        title: "Windows OS",
+        img: "/windows.svg",
+    },
+]

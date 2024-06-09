@@ -1,7 +1,6 @@
 "use client";
 
 import {cn} from "@/utils/cn";
-import Image from "next/image";
 import React, {
     createContext,
     useState,
@@ -53,7 +52,7 @@ export const CardContainer = ({
                     containerClassName
                 )}
                 style={{
-                    perspective: "950px",
+                    perspective: "800px",
                 }}
             >
                 <div
@@ -62,7 +61,7 @@ export const CardContainer = ({
                     onMouseMove={handleMouseMove}
                     onMouseLeave={handleMouseLeave}
                     className={cn(
-                        `flex h-[32.4rem] items-center justify-center relative transition-all duration-200 ease-linear`,
+                        `flex h-fit items-center justify-center relative transition-all duration-200 ease-linear`,
                         className
                     )}
                     style={{
