@@ -78,8 +78,7 @@ export const BentoGridItem = ({
                 {id === 6 && (
                     <BackgroundGradientAnimation/>
                 )}
-                <div
-                    className={cn(titleClassName, 'group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col p-5 lg:p-10')}>
+                <div className={cn(titleClassName, `group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col p-5 lg:p-10`)}>
                     <div
                         className={`font-sans font-extralight md:max-w-32 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10`}>
                         {description}
@@ -117,8 +116,8 @@ export const BentoGridItem = ({
                 }
                     {id===6 && (
                         <div className={`mt-5 relative`}>
-                        <div className={`absolute -bottom-5 right-0`}>
-                            <Lottie
+                            <div className={`absolute -bottom-5 right-0`}>
+                                <Lottie
                                 height={200}
                                 width={400}
                                 options={{
@@ -128,14 +127,15 @@ export const BentoGridItem = ({
                                     rendererSettings: {
                                         preserveAspectRatio: "xMidYMid slice",
                                     },
-                            }}/>
-                        </div>
+                                }}/>
+                            </div>
                             <MagicButton
-                                title={copied ? "Email Copied!" : "Copy my email"}
+                                title={copied ? "Email Copied!" : "Copy email"}
                                 icon={<IoCopyOutline />}
                                 position="left"
                                 handleClick={handleCopy}
-                                otherClasses="!bg-[#161A31] text-lg !md:text-xl"
+                                parentClassName={`!w-fit`}
+                                otherClasses="!bg-[#161A31] text-lg !md:text-xl !w-full"
                             />
                         </div>
                     )}

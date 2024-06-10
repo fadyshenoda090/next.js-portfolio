@@ -20,7 +20,7 @@ export default function Home() {
                 <Grid/>
                 <Skills/>
                 <Card/>
-                <Clients/>
+                {/*<Clients/>*/}
                 <Experience/>
                 <Approach/>
                 <Footer/>
