@@ -56,7 +56,7 @@ const Card = () => {
                             <CardItem translateZ="5" className="mt-2 self-start cursor-pointer z-[99]">
                                 <a href={project.link}
                                    className={`${caveat.className} flex items-center gap-2 text-xl font-semibold`}>
-                                    Visit Project
+                                    {project.live ? 'Live demo' : 'See project Repo'}
                                     <FaLocationArrow className={`text-[#cbacf9]`}/>
                                 </a>
                             </CardItem>

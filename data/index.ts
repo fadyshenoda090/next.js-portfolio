@@ -95,12 +95,13 @@ export const projects = [
             "",
     },
     {
-        id: 5,
+        id: 6,
         title: "My Next.js Personal Portfolio",
         des: "Got the figma design and implemented the design using Next.js, TailwindCSS, Acternity UI and sentry.",
         img: "/portfolio.png",
         iconLists: ["/next.svg", "/ts.svg", "/tail.svg", "/fm.svg","/sentry.svg"],
-        link: "/ui.apple.com",
+        live:true,
+        link: "https://fady-shenoda.vercel.app/",
     },
 ];
 

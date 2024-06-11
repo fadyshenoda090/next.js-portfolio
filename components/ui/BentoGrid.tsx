@@ -68,7 +68,7 @@ export const BentoGridItem = ({
             <div className={`${id === 6 && "flex justify-center"} min-h-fit h-[13rem]`}>
                 <div className={`w-full h-full absolute`}>
                     {img && (
-                        <Image src={img} alt={`image title`} className={cn(imgClassName,`${ id === 1 ? 'object-fill' : 'object-center object-cover'}`)} width={1440} height={1080} loading={`lazy`}/>
+                        <Image src={img} alt={`image title`} className={cn(imgClassName,`${ id === 1 ? 'object-cover' : 'object-center object-cover'}`)} width={1440} height={1080} loading={`lazy`}/>
                     )}
                 </div>
                 <div className={`absolute right-0 -bottom-5 ${id=== 5 && 'w-full opacity-80'}`}>
@@ -79,7 +79,7 @@ export const BentoGridItem = ({
                 {id === 6 && (
                     <BackgroundGradientAnimation/>
                 )}
-                <div className={cn(titleClassName, `group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col p-5 lg:p-10`)}>
+                <div className={cn(titleClassName, `transition duration-200 relative md:h-full min-h-40 flex flex-col p-5 lg:p-10`)}>
                     <div
                         className={`font-sans font-extralight md:max-w-32 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10`}>
                         {description}

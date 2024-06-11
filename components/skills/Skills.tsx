@@ -63,7 +63,7 @@ const Skills = () => {
                             backgroundImage:`url('./${item.img}')`,backgroundRepeat:`no-repeat`,backgroundSize:`contain`,backgroundPosition:`center`
                         }} className={`embla__slide mx-3 border border-purple h-28  rounded-[1rem] overflow-hidden
                         min-w-[calc(100%/2)] md:min-w-[calc(100%/4)] lg:min-w-[calc(100%/5)] xl:min-w-[calc(100%/6)] 2xl:min-w-[calc(100%/7)]`} key={index}>
-                            <div className={`w-full h-full flex justify-center items-center gap-3 bg-gray-950 bg-clip-padding backdrop-filter backdrop-blur-[8px] bg-opacity-50`}>
+                            <div className={`w-full h-full flex justify-center items-center gap-1 bg-gray-950 bg-clip-padding backdrop-filter backdrop-blur-[8px] bg-opacity-50`}>
                             <img src={item.img} alt={item.title} width={40} height={40} loading={`lazy`}/>
                             <p className={`text-2xl`}>
                                 {item.title}
