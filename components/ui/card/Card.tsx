@@ -4,8 +4,6 @@ import {CardBody, CardContainer, CardItem} from "@/components/ui/ThreeDCard";
 import {projects} from "@/data";
 import {caveat} from '@/utils/cutomFonts'
 import {FaLocationArrow} from "react-icons/fa";
-import {BackgroundGradientAnimation} from "@/components/ui/GradientBg";
-
 const Card = () => {
     const [desStates, setDesStates] = useState(Array(projects.length).fill(false));
     const [titleStates, setTitleStates] = useState(Array(projects.length).fill(false));
