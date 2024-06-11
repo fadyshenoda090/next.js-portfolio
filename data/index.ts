@@ -8,12 +8,12 @@ export const navItems = [
 export const gridItems = [
     {
         id: 1,
-        title: "I prioritize client collaboration, fostering open communication ",
+        title: "Hello this is me 😁",
         description: "",
         className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
         imgClassName: "w-full h-full",
-        titleClassName: "justify-end",
-        img: "/b1.svg",
+        titleClassName: "justify-start",
+        img: "/avatar.jpg",
         spareImg: "",
     },
     {
@@ -62,34 +62,56 @@ export const gridItems = [
 export const projects = [
     {
         id: 1,
-        title: "3D Solar System Planets to Explore",
-        des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-        img: "/p1.svg",
-        iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-        link: "/ui.earth.com",
+        title: "Movies Land - Movies watching platform",
+        des: "A movies app as a personal project using React.js for Frontend and TMDB api to See tha latest releases of movies and series.",
+        img: "/moviesApp.png",
+        iconLists: ["/re.svg",'/js.svg', "/bootStrap.svg", "/redux.svg"],
+        live:false,
+        link: "https://github.com/fadyshenoda090/React-movies-app",
     },
     {
         id: 2,
-        title: "Yoom - Video Conferencing App",
-        des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-        img: "/p2.svg",
-        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-        link: "/ui.yoom.com",
+        title: "Amazon E-commerce - Platform Clone",
+        des: "Cloned Amazon E-commerce platform as an ITI graduation project using React.js where user can search for prods, register, login and add prods to cart.",
+        img: "/amazon.png",
+        iconLists: ["/re.svg", '/js.svg', "/tail.svg", "/redux.svg", "/firebase.svg"],
+        live:true,
+        link: "https://fir-88026.web.app/",
     },
     {
         id: 3,
-        title: "AI Image SaaS - Canva Application",
-        des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-        img: "/p3.svg",
-        iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-        link: "/ui.aiimg.com",
+        title: "Gamers Zone - the gamers' best place",
+        des: "Gamers Zone is gamers place to get games updates, series upcoming parts, rating, the production company and reviews.",
+        img: "/gamersZone.png",
+        iconLists: ["/re.svg", "/js.svg", "/tail.svg",],
+        live:true,
+        link: "https://gamerz-zone.netlify.app/",
     },
     {
         id: 4,
-        title: "Animated Apple Iphone 3D Website",
-        des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects.",
-        img: "/p4.svg",
-        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+        title: "Personal Youtube to mp3 downloader",
+        des: "Personal youtube downloader so i can download youtube music for free to my device and listen to them any time and no need for internet.",
+        img: "/mp3Downloader.png",
+        iconLists: ['re.svg', '/js.svg'],
+        live:true,
+        link: "https://fady-dev.netlify.app/",
+    },
+    {
+        id: 5,
+        title: "Fake Store - E-commerce platform",
+        des: "My very first next.js project where user can just register, login, see products and add products to cart.",
+        img: "/fakeStore.png",
+        iconLists: ["/next.svg", "/ts.svg", "/tail.svg", "/c.svg","/strapi.svg"],
+        live:false,
+        link: "https://github.com/fadyshenoda090/Fake-store-nextjs" +
+            "",
+    },
+    {
+        id: 5,
+        title: "My Next.js Personal Portfolio",
+        des: "Got the figma design and implemented the design using Next.js, TailwindCSS, Acternity UI and sentry.",
+        img: "/portfolio.png",
+        iconLists: ["/next.svg", "/ts.svg", "/tail.svg", "/fm.svg","/sentry.svg"],
         link: "/ui.apple.com",
     },
 ];
@@ -163,32 +185,32 @@ export const companies = [
 export const workExperience = [
     {
         id: 1,
-        title: "Frontend Engineer Intern",
-        desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+        title: "Frontend development at ITI (Information Technology Institute)",
+        desc: "learned the web flow and technologies used to create web apps like HTML5, CSS3, JavaScript and other technologies like react.js.",
         className: "md:col-span-2",
         thumbnail: "/exp1.svg",
     },
-    {
-        id: 2,
-        title: "Mobile App Dev - JSM Tech",
-        desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-        className: "md:col-span-2", // change to md:col-span-2
-        thumbnail: "/exp2.svg",
-    },
-    {
-        id: 3,
-        title: "Freelance App Dev Project",
-        desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-        className: "md:col-span-2", // change to md:col-span-2
-        thumbnail: "/exp3.svg",
-    },
-    {
-        id: 4,
-        title: "Lead Frontend Developer",
-        desc: "Developed and maintained user-facing features using modern frontend technologies.",
-        className: "md:col-span-2",
-        thumbnail: "/exp4.svg",
-    },
+//     {
+//         id: 2,
+//         title: "Mobile App Dev - JSM Tech",
+//         desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+//         className: "md:col-span-2", // change to md:col-span-2
+//         thumbnail: "/exp2.svg",
+//     },
+//     {
+//         id: 3,
+//         title: "Freelance App Dev Project",
+//         desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+//         className: "md:col-span-2", // change to md:col-span-2
+//         thumbnail: "/exp3.svg",
+//     },
+//     {
+//         id: 4,
+//         title: "Lead Frontend Developer",
+//         desc: "Developed and maintained user-facing features using modern frontend technologies.",
+//         className: "md:col-span-2",
+//         thumbnail: "/exp4.svg",
+//     },
 ];
 
 export const socialMedia = [
@@ -249,12 +271,12 @@ export const skills = [
         img:'/redux.svg'
     },
     {
-        title: "Framer Motion",
-        img: "/fm.svg",
-    },
-    {
         title: "Git & GitHub",
         img: "/github.svg",
+    },
+    {
+        title: "Framer Motion",
+        img: "/fm.svg",
     },
     {
         title: "Ubuntu OS",

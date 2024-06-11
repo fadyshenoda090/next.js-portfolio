@@ -13,7 +13,7 @@ const Skills = () => {
     }, [
         AutoScroll({
             direction:`forward`,
-            speed: 3,
+            speed: 1,
             delay: 1000,
             stopOnMouseEnter: true,
             stopOnFocusIn: false,
@@ -74,19 +74,6 @@ const Skills = () => {
                     ))}
                 </div>
             </div>
-            {/*<div className={`w-full  mt-10`}>*/}
-            {/*<EmblaCarousel/>*/}
-            {/*{*/}
-            {/*    skills.map((skill,index)=>(*/}
-            {/*        <div key={index} className={`flex gap-2 col-span-6 sm:col-span-2 place-content-center`}>*/}
-            {/*            <img src={skill.img} alt={skill.title} width={40} height={40} loading={`lazy`}/>*/}
-            {/*            <p className={`text-2xl`}>*/}
-            {/*                {skill.title}*/}
-            {/*            </p>*/}
-            {/*        </div>*/}
-            {/*    ))*/}
-            {/*}*/}
-            {/*</div>*/}
         </section>
     );
 };

@@ -20,7 +20,7 @@ const Approach = () => {
                     icon={<AceternityIcon order={`phase 1`}/>}>
                     <CanvasRevealEffect
                         animationSpeed={5.1}
-                        containerClassName="bg-emerald-900"
+                        containerClassName="bg-violet-900"
                     />
                 </Card>
                 <Card
@@ -28,7 +28,7 @@ const Approach = () => {
                     des={`I believe that collaboration is key to success. Working closely with others, sharing knowledge, and leveraging diverse perspectives help create more effective and robust solutions.`}
                     icon={<AceternityIcon order={`phase 2`}/>}>
                     <CanvasRevealEffect
-                        animationSpeed={3}
+                        animationSpeed={4}
                         containerClassName="bg-black"
                         colors={[
                             [236, 72, 153],
@@ -42,9 +42,23 @@ const Approach = () => {
                     des={`In a rapidly changing technological landscape, adaptability is crucial. I strive to stay flexible and open to change, quickly learning and integrating new methodologies and technologies.`}
                     icon={<AceternityIcon order={`phase 3`}/>}>
                     <CanvasRevealEffect
-                        animationSpeed={3}
+                        animationSpeed={5.1}
                         containerClassName="bg-sky-600"
                         colors={[[125, 211, 252]]}
+                    />
+                </Card>
+                <Card
+                    title="Embrace the Unknown"
+                    des={`Receiving a new task involving unfamiliar concepts and technologies doesn't intimidate me. I am committed to learning and accomplishing the required tasks to the best of my ability.`}
+                    icon={<AceternityIcon order={`phase 4`}/>}>
+                    <CanvasRevealEffect
+                        animationSpeed={4}
+                        containerClassName="bg-black"
+                        colors={[
+                            [236, 72, 153],
+                            [232, 121, 249],
+                        ]}
+                        dotSize={2}
                     />
                 </Card>
             </div>
