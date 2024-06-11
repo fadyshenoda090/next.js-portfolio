@@ -26,7 +26,9 @@ const Footer = () => {
                         socialMedia.map((item,index)=>(
                             <div key={index} className={`w-10 h-10 cursor-pointer flex items-center justify-center backdrop-filter
                                 backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300`}>
-                                <img src={item.img} alt={item.alt} width={20} height={20} loading={`lazy`}/>
+                                <a href={item.link} target={`_blank`}>
+                                    <img src={item.img} alt={item.alt} width={20} height={20} loading={`lazy`}/>
+                                </a>
                             </div>
                         ))
                     }

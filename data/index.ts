@@ -218,17 +218,20 @@ export const socialMedia = [
         id: 1,
         img: "/github.svg",
         alt: "github",
+        link:'https://github.com/fadyshenoda090'
     },
     {
         id: 2,
-        img: "/twit.svg",
-        alt: "twitter",
-    },
-    {
-        id: 3,
         img: "/link.svg",
         alt: "linkedin",
+        link:'https://linkedin.com/in/fady-shenoda'
     },
+    {
+        id:2,
+        img:'/whatsapp.svg',
+        alt:'whatsapp',
+        link:'https://wa.me/201206753202'
+    }
 ];
 
 
