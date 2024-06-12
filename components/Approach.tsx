@@ -43,7 +43,7 @@ const Approach = () => {
                     icon={<AceternityIcon order={`phase 3`}/>}>
                     <CanvasRevealEffect
                         animationSpeed={5.1}
-                        containerClassName="bg-sky-600"
+                        containerClassName="bg-violet-900"
                         colors={[[125, 211, 252]]}
                     />
                 </Card>
