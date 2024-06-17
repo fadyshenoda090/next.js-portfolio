@@ -113,6 +113,13 @@ export const workExperience = [
         className: "md:col-span-2",
         thumbnail: "/exp1.svg",
     },
+    {
+        id: 2,
+        title: "Frontend development at Alrowadit (AITSP)",
+        desc: "Developed and maintained user-facing features using modern frontend technologies.",
+        className: "md:col-span-2",
+        thumbnail: "/exp1.svg",
+    },
 ];
 
 export const socialMedia = [
