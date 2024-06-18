@@ -28,7 +28,7 @@ const Card = () => {
     return (
         <section className={`mt-28`}>
             <h1 className={`heading my-5`}>
-                A small collection of {' '}
+                A collection of {' '}
                 <span className={`text-purple`}>
                     Recent projects
                 </span>

@@ -1,13 +1,13 @@
-import Image from "next/image";
-import Hero from "@/components/hero/Hero";
-import {FloatingNav} from "@/components/ui/Floating-navbar";
-import Grid from "@/components/ui/grid/Grid";
-import Card from "@/components/ui/card/Card";
+import {lazy} from "react";
 import  {navItems} from "@/data";
-import Experience from "@/components/Experience";
-import Approach from "@/components/Approach";
-import Footer from "@/components/footer/Footer";
-import Skills from "@/components/skills/Skills";
+import {FloatingNav} from "@/components/ui/Floating-navbar";
+const Hero = lazy(()=> import ('@/components/hero/Hero'))
+const Grid = lazy(()=>import ('@/components/ui/grid/Grid'))
+const Card = lazy(()=>import ('@/components/ui/card/Card'))
+const Experience = lazy(()=>import ("@/components/Experience"))
+const Approach = lazy(()=> import ('@/components/Approach'))
+const Footer = lazy(()=> import ('@/components/footer/Footer'))
+const Skills = lazy(()=>import ('@/components/skills/Skills'))
 
 export default function Home() {
     return (
