@@ -8,7 +8,7 @@ export const TextGenerateEffect = ({
                                        className,
                                        staggerValue,
                                        applyOrNot,
-                                         class2
+                                       class2
                                    }: {
     words: string;
     className?: string;

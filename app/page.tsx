@@ -4,8 +4,8 @@ import {FloatingNav} from "@/components/ui/Floating-navbar";
 const Hero = lazy(()=> import ('@/components/hero/Hero'))
 const Grid = lazy(()=>import ('@/components/ui/grid/Grid'))
 const Card = lazy(()=>import ('@/components/ui/card/Card'))
-const Experience = lazy(()=>import ("@/components/Experience"))
-const Approach = lazy(()=> import ('@/components/Approach'))
+const Experience = lazy(()=>import ("@/components/experience/Experience"))
+const Approach = lazy(()=> import ('@/components/approach/Approach'))
 const Footer = lazy(()=> import ('@/components/footer/Footer'))
 const Skills = lazy(()=>import ('@/components/skills/Skills'))
 

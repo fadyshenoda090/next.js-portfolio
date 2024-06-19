@@ -1,6 +1,6 @@
 import React from 'react';
 import {Spotlight} from "@/components/ui/Spotlight";
-import {TextGenerateEffect} from "@/components/text-generate-effect";
+import {TextGenerateEffect} from "@/components/ui/text-generate-effect";
 import MagicButton from "@/components/ui/MagicButton";
 import {FaDownload} from "react-icons/fa";
 
