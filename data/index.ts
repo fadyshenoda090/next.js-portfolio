@@ -197,6 +197,18 @@ export const skills = [
         img: "/next.svg",
     },
     {
+        title: "Node.js",
+        img: "/node.svg",
+    },
+    {
+        title: "MongoDB",
+        img: "/mongo.svg",
+    },
+    {
+        title: "Express.js",
+        img: "/exp.svg",
+    },
+    {
         title:'Redux Toolkit',
         img:'/redux.svg'
     },
@@ -215,17 +227,5 @@ export const skills = [
     {
         title: "Windows OS",
         img: "/windows.svg",
-    },
-    {
-        title: "Node.js",
-        img: "/node.svg",
-    },
-    {
-        title: "MongoDB",
-        img: "/mongo.svg",
-    },
-    {
-        title: "Express.js",
-        img: "/exp.svg",
     }
 ]
