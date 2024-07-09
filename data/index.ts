@@ -112,6 +112,15 @@ export const projects = [
         live:false,
         link: "https://github.com/fadyshenoda090/React-movies-app",
     },
+    {
+        id:8,
+        title :'Action Pad',
+        des:'A full-stack using MERN Stack, it is a platform where users can add their daily tasks, update them any time, mark them as to-do , in progress or done and delete them.',
+        img:'/actionPad.png',
+            iconLists:['/re.svg','/js.svg','/tail.svg','/node.svg','/mongo.svg','mongoose.svg','/exp.svg'],
+        live:true,
+        link:'https://to-do-app-front-three.vercel.app/'
+    }
 ];
 
 export const workExperience = [
@@ -207,4 +216,16 @@ export const skills = [
         title: "Windows OS",
         img: "/windows.svg",
     },
+    {
+        title: "Node.js",
+        img: "/node.svg",
+    },
+    {
+        title: "MongoDB",
+        img: "/mongo.svg",
+    },
+    {
+        title: "Express.js",
+        img: "/exp.svg",
+    }
 ]
