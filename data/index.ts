@@ -83,7 +83,7 @@ export const projects = [
         img: "/mp3Downloader.png",
         iconLists: ['re.svg', '/js.svg'],
         live:true,
-        link: "https://fady-dev.netlify.app/",
+        link: "https://video-to-mp3-downloader.vercel.app/",
     },
     {
         id: 5,
