@@ -150,7 +150,7 @@ export const workExperience = [
     {
         id: 3,
         title: "Frontend development at UTO Services LLC",
-        desc: "Developed modern animated user interfaces using lates technologies .",
+        desc: "Developed modern animated user interfaces using latest technologies .",
         className: "md:col-span-2",
         thumbnail: "/exp1.svg",
     },
