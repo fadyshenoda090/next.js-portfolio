@@ -120,6 +120,15 @@ export const projects = [
             iconLists:['/re.svg','/js.svg','/tail.svg','/node.svg','/mongo.svg','mongoose.svg','/exp.svg'],
         live:true,
         link:'https://to-do-app-front-three.vercel.app/'
+    },
+    {
+        id:8,
+        title :'G2 Digital',
+        des:'Store for digital products such as PUBG UCs, call of duty points CPs, Netflex, PS cards, Xbox cards and Play store card ...etc.',
+        img:'/G2d.png',
+            iconLists:['/re.svg','/js.svg','/bootStrap.svg','/scss.svg','redux.svg'],
+        live:true,
+        link:'https://g2.digital/'
     }
 ];
 
@@ -135,6 +144,13 @@ export const workExperience = [
         id: 2,
         title: "Frontend development at Alrowadit (AITSP)",
         desc: "Developed and maintained user-facing features using modern frontend technologies.",
+        className: "md:col-span-2",
+        thumbnail: "/exp1.svg",
+    },
+    {
+        id: 3,
+        title: "Frontend development at UTO Services LLC",
+        desc: "Developed modern animated user interfaces using lates technologies .",
         className: "md:col-span-2",
         thumbnail: "/exp1.svg",
     },
