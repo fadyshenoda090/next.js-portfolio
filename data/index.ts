@@ -122,7 +122,7 @@ export const projects = [
         link:'https://to-do-app-front-three.vercel.app/'
     },
     {
-        id:8,
+        id:9,
         title :'G2 Digital',
         des:'Store for digital products such as PUBG UCs, call of duty points CPs, Netflex, PS cards, Xbox cards and Play store card ...etc.',
         img:'/G2d.png',
