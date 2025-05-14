@@ -53,26 +53,26 @@ export const projects = [
         title: "My Next.js Personal Portfolio",
         des: "Got the figma design and implemented the design using Next.js, TailwindCSS, Acternity UI and sentry.",
         img: "/portfolio.png",
-        iconLists: ["/next.svg", "/ts.svg", "/tail.svg", "/fm.svg","/sentry.svg"],
-        live:true,
+        iconLists: ["/next.svg", "/ts.svg", "/tail.svg", "/fm.svg", "/sentry.svg"],
+        live: true,
         link: "https://fady-shenoda.vercel.app/",
     },
     {
-        id:2,
+        id: 2,
         title: "Value Platform",
         des: "Participated in the design of the landing page, I was responsible of design the first three sections of the landing page and implemented the design using React.js and native CSS styling.",
         img: "/value.png",
-        iconLists:['/re.svg','/js.svg','/css3.svg'],
-        live:true,
-        link:"https://value-platform.com/"
+        iconLists: ['/re.svg', '/js.svg', '/css3.svg'],
+        live: true,
+        link: "https://value-platform.com/"
     },
     {
         id: 3,
         title: "Fake Store - E-commerce platform",
         des: "My very first next.js project where user can just register, login, see products and add products to cart.",
         img: "/fakeStore.png",
-        iconLists: ["/next.svg", "/ts.svg", "/tail.svg", "/c.svg","/strapi.svg"],
-        live:false,
+        iconLists: ["/next.svg", "/ts.svg", "/tail.svg", "/c.svg", "/strapi.svg"],
+        live: false,
         link: "https://github.com/fadyshenoda090/Fake-store-nextjs" +
             "",
     },
@@ -82,7 +82,7 @@ export const projects = [
         des: "Personal youtube downloader so i can download youtube music for free to my device and listen to them any time and no need for internet.",
         img: "/mp3Downloader.png",
         iconLists: ['re.svg', '/js.svg'],
-        live:true,
+        live: true,
         link: "https://video-to-mp3-downloader.vercel.app/",
     },
     {
@@ -91,7 +91,7 @@ export const projects = [
         des: "Gamers Zone is gamers place to get games updates, series upcoming parts, rating, the production company and reviews.",
         img: "/gamersZone.png",
         iconLists: ["/re.svg", "/js.svg", "/tail.svg",],
-        live:true,
+        live: true,
         link: "https://gamerz-zone.netlify.app/",
     },
     {
@@ -100,7 +100,7 @@ export const projects = [
         des: "Cloned Amazon E-commerce platform as an ITI graduation project using React.js where user can search for prods, register, login and add prods to cart.",
         img: "/amazon.png",
         iconLists: ["/re.svg", '/js.svg', "/tail.svg", "/redux.svg", "/firebase.svg"],
-        live:true,
+        live: true,
         link: "https://fir-88026.web.app/",
     },
     {
@@ -108,27 +108,36 @@ export const projects = [
         title: "Movies Land - Movies watching platform",
         des: "A movies app as a personal project using React.js for Frontend and TMDB api to See tha latest releases of movies and series.",
         img: "/moviesApp.png",
-        iconLists: ["/re.svg",'/js.svg', "/bootStrap.svg", "/redux.svg"],
-        live:false,
+        iconLists: ["/re.svg", '/js.svg', "/bootStrap.svg", "/redux.svg"],
+        live: false,
         link: "https://github.com/fadyshenoda090/React-movies-app",
     },
     {
-        id:8,
-        title :'Action Pad',
-        des:'A full-stack using MERN Stack, it is a platform where users can add their daily tasks, update them any time, mark them as to-do , in progress or done and delete them.',
-        img:'/actionPad.png',
-            iconLists:['/re.svg','/js.svg','/tail.svg','/node.svg','/mongo.svg','mongoose.svg','/exp.svg'],
-        live:true,
-        link:'https://to-do-app-front-three.vercel.app/'
+        id: 8,
+        title: 'Action Pad',
+        des: 'A full-stack using MERN Stack, it is a platform where users can add their daily tasks, update them any time, mark them as to-do , in progress or done and delete them.',
+        img: '/actionPad.png',
+        iconLists: ['/re.svg', '/js.svg', '/tail.svg', 'rhf.svg', '/node.svg', '/mongo.svg', 'mongoose.svg', '/exp.svg'],
+        live: true,
+        link: 'https://to-do-app-front-three.vercel.app/'
     },
     {
-        id:9,
-        title :'G2 Digital',
-        des:'Store for digital products such as PUBG UCs, call of duty points CPs, Netflex, PS cards, Xbox cards and Play store card ...etc.',
-        img:'/G2d.png',
-            iconLists:['/re.svg','/js.svg','/bootStrap.svg','/scss.svg','redux.svg'],
-        live:true,
-        link:'https://g2.digital/'
+        id: 9,
+        title: 'G2 Digital',
+        des: 'An e-commerce platform for digital products such as PUBG UCs, Call of Duty CPs, Netflix subscriptions, PlayStation and Xbox cards, Google Play gift cards, and more.',
+        img: '/G2d.png',
+        iconLists: ['/re.svg', '/js.svg', '/bootStrap.svg', '/scss.svg', 'redux.svg', 'rhf.svg'],
+        live: true,
+        link: 'https://g2.digital/'
+    },
+    {
+        id: 10,
+        title: 'G2 Digital V2',
+        des: 'A redesigned and upgraded version of G2 Digital featuring new functionality like tournament hosting, organizer tools, and player participation in live competitions with prize rewards.',
+        img: '/G2dV2.png',
+        iconLists: ['/re.svg', '/js.svg', '/tail.svg', 'rhf.svg', 'redux.svg'],
+        live: true,
+        link: 'https://g2.digital/'
     }
 ];
 
@@ -161,19 +170,19 @@ export const socialMedia = [
         id: 1,
         img: "/github.svg",
         alt: "github",
-        link:'https://github.com/fadyshenoda090'
+        link: 'https://github.com/fadyshenoda090'
     },
     {
         id: 2,
         img: "/link.svg",
         alt: "linkedin",
-        link:'https://linkedin.com/in/fady-shenoda'
+        link: 'https://linkedin.com/in/fady-shenoda'
     },
     {
-        id:2,
-        img:'/whatsapp.svg',
-        alt:'whatsapp',
-        link:'https://wa.me/201206753202'
+        id: 2,
+        img: '/whatsapp.svg',
+        alt: 'whatsapp',
+        link: 'https://wa.me/201206753202'
     }
 ];
 
@@ -225,8 +234,8 @@ export const skills = [
         img: "/exp.svg",
     },
     {
-        title:'Redux Toolkit',
-        img:'/redux.svg'
+        title: 'Redux Toolkit',
+        img: '/redux.svg'
     },
     {
         title: "Git & GitHub",
