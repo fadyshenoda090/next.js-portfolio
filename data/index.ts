@@ -222,6 +222,10 @@ export const skills = [
         img: "/next.svg",
     },
     {
+        title: "React-hook-form",
+        img: "/rhf.svg",
+    },
+    {
         title: "Node.js",
         img: "/node.svg",
     },
