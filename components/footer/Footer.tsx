@@ -1,7 +1,7 @@
 import React from 'react';
 import MagicButton from "@/components/ui/MagicButton";
-import {FaLocationArrow} from "react-icons/fa";
-import {socialMedia} from "@/data";
+import { FaLocationArrow } from "react-icons/fa";
+import { socialMedia } from "@/data";
 
 const Footer = () => {
     return (
@@ -14,20 +14,20 @@ const Footer = () => {
                     Get in touch with me to discuss how I can help you.
                 </p>
                 <a href="mailto:fadyshenoda0o0@gmail.com">
-                    <MagicButton title={`Mail Me`} icon={<FaLocationArrow/>} position={`right`}/>
+                    <MagicButton title={`Mail Me`} icon={<FaLocationArrow />} position={`right`} />
                 </a>
             </div>
             <div className={`flex flex-col gap-5 md:gap-0 md:flex-row mt-16 justify-between items-center`}>
                 <p className={`text-sm md:text-base font-light md:font-normal`}>
-                    Copyright &copy; 2024 Fady Shenoda
+                    Copyright &copy; {new Date().getFullYear()} Fady Shenoda
                 </p>
                 <div className={`flex items-center gap-6 md:gap-3`}>
                     {
-                        socialMedia.map((item,index)=>(
+                        socialMedia.map((item, index) => (
                             <div key={index} className={`w-10 h-10 cursor-pointer flex items-center justify-center backdrop-filter
                                 backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300`}>
                                 <a href={item.link} target={`_blank`}>
-                                    <img src={item.img} alt={item.alt} width={20} height={20} loading={`lazy`}/>
+                                    <img src={item.img} alt={item.alt} width={20} height={20} loading={`lazy`} />
                                 </a>
                             </div>
                         ))
