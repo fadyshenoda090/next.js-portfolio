@@ -144,28 +144,28 @@ export const projects = [
 export const workExperience = [
     {
         id: 1,
-        title: "Frontend development at ITI (Information Technology Institute)",
+        title: "Frontend developmer at ITI (Information Technology Institute)",
         desc: "learned the web flow and technologies used to create web apps like HTML5, CSS3, JavaScript and other technologies like react.js.",
         className: "md:col-span-2",
         thumbnail: "/exp1.svg",
     },
     {
         id: 2,
-        title: "Frontend development at Alrowadit (AITSP)",
+        title: "Frontend developmer at Alrowadit (AITSP)",
         desc: "Developed and maintained user-facing features using modern frontend technologies.",
         className: "md:col-span-2",
         thumbnail: "/exp1.svg",
     },
     {
         id: 3,
-        title: "Frontend development at UTO Services LLC",
+        title: "Frontend developmer at UTO Services LLC",
         desc: "Developed modern animated user interfaces using latest technologies .",
         className: "md:col-span-2",
         thumbnail: "/exp1.svg",
     },
     {
         id: 4,
-        title: "Frontend development at Trust Systems",
+        title: "Frontend developmer at Trust Systems",
         desc: "Part-time project based on Platform UrNamu.co .",
         className: "md:col-span-2",
         thumbnail: "/exp1.svg",
