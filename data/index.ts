@@ -163,6 +163,13 @@ export const workExperience = [
         className: "md:col-span-2",
         thumbnail: "/exp1.svg",
     },
+    {
+        id: 4,
+        title: "Frontend development at Trust Systems",
+        desc: "Part-time project based on Platform UrNamu.co .",
+        className: "md:col-span-2",
+        thumbnail: "/exp1.svg",
+    },
 ];
 
 export const socialMedia = [
